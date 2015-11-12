@@ -262,3 +262,20 @@ img.attachment-thumbnail.wp-post-image {
 #twitter-svg:hover {
 	fill: #5EA9DD;
 }
+
+.portfolio-content {
+	background-color: #ddd;
+	border-radius: 10px;
+}
+
+.portolio-link {
+	text-decoration: none;
+}
+
+.portfolio-link p {
+	color: #333;
+}
+
+.portfolio-link p:hover {
+	color: #333;
+}
