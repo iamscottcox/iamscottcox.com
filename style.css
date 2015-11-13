@@ -292,6 +292,16 @@ img.attachment-thumbnail {
 	padding: 1em;
 }
 
+.content-block img {
+	margin: 1em 0;
+}
+
+.content-block p {
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
 a {
 	text-decoration: none;
 }
