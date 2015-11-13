@@ -263,13 +263,13 @@ img.attachment-thumbnail.wp-post-image {
 	fill: #5EA9DD;
 }
 
-.portfolio-content {
-	background-color: #ddd;
-	border-radius: 10px;
-}
-
 .portolio-link {
 	text-decoration: none;
+}
+
+.portfolio-link h3 {
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .portfolio-link p {
@@ -278,4 +278,20 @@ img.attachment-thumbnail.wp-post-image {
 
 .portfolio-link p:hover {
 	color: #333;
+}
+
+img.attachment-thumbnail {
+	width: 150px;
+	height: 150px;
+}
+
+.content-block {
+	margin: 0 auto 1em;
+	background-color: #ddd;
+	border-radius: 10px;
+	padding: 1em;
+}
+
+a {
+	text-decoration: none;
 }
