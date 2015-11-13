@@ -272,14 +272,6 @@ img.attachment-thumbnail.wp-post-image {
 	overflow: hidden;
 }
 
-.portfolio-link p {
-	color: #333;
-}
-
-.portfolio-link p:hover {
-	color: #333;
-}
-
 img.attachment-thumbnail {
 	width: 150px;
 	height: 150px;
@@ -289,17 +281,16 @@ img.attachment-thumbnail {
 	margin: 0 auto 1em;
 	background-color: #ddd;
 	border-radius: 10px;
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .content-block img {
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
 .content-block p {
 	width: 90%;
 	margin: 0 auto;
-	text-align: justify;
 }
 
 a {

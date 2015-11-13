@@ -30,13 +30,12 @@ Template Name: Portfolio Page
 
       <div class-"row">
         <a class="portfolio-link" href="<?php the_permalink(); ?>">
-          <div class="col-xs-4">
+          <div class="col-sm-4">
             <div class="content-block">
-              <h3 class="text-center"><?php the_title(); ?></h3>
               <div class="text-center">
                 <?php the_post_thumbnail('thumbnail'); ?>
               </div>
-              <p class="portfolio-excerpt"><?php the_excerpt(); ?></p>
+              <h4 class="text-center"><?php the_title(); ?></h4>
             </div>
           </a>
         </div>
