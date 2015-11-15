@@ -267,7 +267,7 @@ img.attachment-thumbnail.wp-post-image {
 	text-decoration: none;
 }
 
-.portfolio-link h3 {
+.portfolio-link h4 {
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -293,6 +293,6 @@ img.attachment-thumbnail {
 	margin: 0 auto;
 }
 
-a {
+a:hover {
 	text-decoration: none;
 }
