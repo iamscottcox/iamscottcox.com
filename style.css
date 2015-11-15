@@ -296,3 +296,11 @@ img.attachment-thumbnail {
 a:hover {
 	text-decoration: none;
 }
+
+.front-page-content {
+	margin-bottom: 1em;
+}
+
+a p {
+	color: #333;
+}
