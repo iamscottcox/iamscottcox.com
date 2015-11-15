@@ -1,53 +1,48 @@
 <?php get_header(); ?>
 
-    <div class="container" role="main">
+<div class="container" role="main">
 
-	    <div class="row">
+  <div class="row">
 
-	    	<div class="col-md-8">
+    <div class="col-md-8">
 
-			    <div class="page-header">	
-			    	<h1><?php wp_title( '' ); ?></h1>
-			    </div>
+      <div class="page-header">
+        <h1><?php wp_title( '' ); ?></h1>
+      </div>
 
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<article class="post">
-				    
-			    	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <article class="post">
 
-			    	<?php if( has_post_format( 'image' )): ?>
+          <div class="row">
+            <div class="col-xs-4">
+              <a href="<?php the_permalink(); ?>">
+                <div class="text-center post-thumbnail">
+                  <?php the_post_thumbnail('thumbnail'); ?>
+                </div>
+              </div>
+              <div class="col-xs-8">
+                <h3><?php the_title(); ?></h3>
+                <p><?php the_excerpt(); ?></p>
+              </div>
+            </a>
+          </div>
 
-			    		<?php the_post_thumbnail('medium'); ?>
+          <p class="meta text-right">
+            By <?php the_author_posts_link(); ?>
+            on <?php echo the_time('l, F jS, Y'); ?>
+            <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a>
+          </p>
 
-			    	<?php elseif ( has_post_format( 'quote' )): ?>
-
-			    		<blockquote>
-							<?php the_excerpt(); ?>
-			    		</blockquote>
-
-			    	<?php else: ?>
-
-						<?php the_excerpt(); ?>
-
-					<?php endif; ?>
-
-
-			    	<p class="meta">
-			    		By <?php the_author_posts_link(); ?> 
-			    		on <?php echo the_time('l, F jS, Y'); ?> 
-			    		<a href="<?php comments_link(); ?>"><?php comments_number(); ?></a>
-					</p>
-
-				</article>
-				<?php endwhile; endif; ?>
-
-
-	    	</div>
-
-	    	<?php get_sidebar( 'blog' ); ?>
-
-	    </div>
+        </article>
+        
+      <?php endwhile; endif; ?>
 
     </div>
+
+    <?php get_sidebar( 'blog' ); ?>
+
+  </div>
+
+</div>
 
 <?php get_footer(); ?>

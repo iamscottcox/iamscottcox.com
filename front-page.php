@@ -62,15 +62,17 @@
     ?>
 
     <div class="row front-page-content">
-      <div class="col-xs-4">
-        <div class="text-center post-thumbnail">
-          <?php the_post_thumbnail('thumbnail'); ?>
+      <a href="<?php the_permalink(); ?>">
+        <div class="col-xs-4">
+          <div class="text-center post-thumbnail">
+            <?php the_post_thumbnail('thumbnail'); ?>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-8">
-        <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
-        <p><?php the_excerpt(); ?></p>
-      </div>
+        <div class="col-xs-8">
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
+        </div>
+      </a>
     </div>
 
   <?php endwhile; endif; ?>
