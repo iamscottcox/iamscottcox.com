@@ -3,13 +3,15 @@
 <div class="jumbotron">
   <div class="container">
     <div class="row">
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+      <div class="col-md-12">
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-        <h1><?php bloginfo('title'); ?></h1>
+          <h1><?php bloginfo('title'); ?></h1>
 
-        <p><?php the_content(); ?></p>
+          <p><?php the_content(); ?></p>
 
-      <?php endwhile; endif; ?>
+        <?php endwhile; endif; ?>
+      </div>
     </div>
   </div>
 </div>
