@@ -61,7 +61,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'assets/scss',
           src: [
-            '*.scss'
+            'style.scss'
           ],
           dest: 'dist/css',
           ext: '.min.css'
@@ -76,7 +76,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'assets/scss',
           src: [
-            '*.scss'
+            'style.scss'
           ],
           dest: 'assets/css',
           ext: '.css'
@@ -116,7 +116,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       css: {
-        files: ['assets/sass/*'],
+        files: ['assets/scss/*.scss'],
         tasks: ['sass:dev']
       },
       html: {
