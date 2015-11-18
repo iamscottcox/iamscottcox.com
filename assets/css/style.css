@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-18 12:15:41 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-18 10:54:40 PM */
 
 @charset "UTF-8";
 /*!
@@ -7522,7 +7522,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .home-content-header {
-  background-color: #eee;
+  background-color: #337ab7;
+  color: #eeeeee;
   padding: 0.5em 0;
 }
 
@@ -7543,7 +7544,7 @@ img.attachment-thumbnail.wp-post-image {
 .social-icon {
   max-width: 43px;
   height: 43px;
-  fill: #666;
+  fill: #777777;
 }
 
 #github-svg, #codepen-svg, #treehouse-svg, #twitter-svg {
@@ -7606,6 +7607,11 @@ a:hover {
 
 a p {
   color: #333;
+}
+
+.jumbotron {
+  background: #337ab7;
+  color: #eeeeee;
 }
 
 /*# sourceMappingURL=style.css.map */
