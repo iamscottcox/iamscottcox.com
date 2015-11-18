@@ -1,6 +1,5 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-18 10:54:40 PM */
-
 @charset "UTF-8";
+/* Dependancy Styles */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7515,20 +7514,10 @@ input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-/* = User Defined Styles
--------------------------------------------------------------- */
+/* Variables */
+/* User Defined Styles */
 .error404 form.search-form {
   margin-top: 3em;
-}
-
-.home-content-header {
-  background-color: #337ab7;
-  color: #eeeeee;
-  padding: 0.5em 0;
-}
-
-img.attachment-thumbnail.wp-post-image {
-  border-radius: 10px;
 }
 
 .social-icons {
@@ -7567,6 +7556,12 @@ img.attachment-thumbnail.wp-post-image {
   fill: #5EA9DD;
 }
 
+.home-content-header {
+  background-color: #337ab7;
+  color: #eeeeee;
+  padding: 0.5em 0;
+}
+
 .portolio-link {
   text-decoration: none;
 }
@@ -7574,11 +7569,6 @@ img.attachment-thumbnail.wp-post-image {
 .portfolio-link h4 {
   white-space: nowrap;
   overflow: hidden;
-}
-
-img.attachment-thumbnail {
-  width: 150px;
-  height: 150px;
 }
 
 .content-block {
@@ -7605,13 +7595,22 @@ a:hover {
   margin-bottom: 1em;
 }
 
-a p {
-  color: #333;
-}
-
 .jumbotron {
   background: #337ab7;
   color: #eeeeee;
+}
+
+img.attachment-thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+img.attachment-thumbnail.wp-post-image {
+  border-radius: 10px;
+}
+
+a p {
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */

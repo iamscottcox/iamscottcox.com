@@ -1,0 +1,35 @@
+.social-icons {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin: 2em 1em;
+}
+
+.social-icon {
+	max-width: 43px;
+	height: 43px;
+	fill: $gray-light;
+}
+
+#github-svg, #codepen-svg, #treehouse-svg, #twitter-svg {
+	transition: fill 0.4s ease-in-out;
+}
+
+#github-svg:hover {
+	fill: #614381;
+}
+
+#codepen-svg:hover {
+	fill: black;
+}
+
+#treehouse-svg:hover {
+	fill: #69C773;
+}
+
+#twitter-svg:hover {
+	fill: #5EA9DD;
+}

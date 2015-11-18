@@ -1,0 +1,42 @@
+.home-content-header {
+	background-color: $brand-primary;
+	color: $gray-lighter;
+	padding: 0.5em 0;
+}
+
+.portolio-link {
+	text-decoration: none;
+}
+
+.portfolio-link h4 {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content-block {
+	margin: 0 auto 1em;
+	background-color: #ddd;
+	border-radius: 10px;
+	padding: 0.5em;
+}
+
+.content-block img {
+	margin: 0.5em 0;
+}
+
+.content-block p {
+	width: 90%;
+	margin: 0 auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.front-page-content {
+	margin-bottom: 1em;
+}
+.jumbotron {
+	background: $brand-primary;
+	color: $gray-lighter;
+}
