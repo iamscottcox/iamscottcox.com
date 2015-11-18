@@ -40,3 +40,11 @@ a:hover {
 	background: $brand-primary;
 	color: $gray-lighter;
 }
+
+.h2.text-center.home-content-header {
+	transition: border 0.5s ease-in-out;
+}
+
+.h2.text-center.home-content-header:hover {
+	border: 1px solid white;
+}
