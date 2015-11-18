@@ -45,6 +45,8 @@
         </a>
       </div>
 
+      <hr>
+
     <?php endwhile; endif; ?>
 
   </div>
@@ -76,6 +78,8 @@
         </div>
       </a>
     </div>
+
+    <hr>
 
   <?php endwhile; endif; ?>
 
