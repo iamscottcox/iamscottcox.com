@@ -120,7 +120,7 @@ module.exports = function(grunt) {
         tasks: ['sass:dev']
       },
       css: {
-        files: [*.css]
+        files: ['*.css']
       },
       html: {
         files: ['*.html']
