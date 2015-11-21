@@ -50,48 +50,49 @@
       </a>
     </article>
 
-
-
-
-
   <?php endwhile; endif; ?>
 
 </div>
 <hr>
 
-<div class="col-md-6 blog">
-  <a href="<?php echo site_url(); ?>/blog"><h2 class="text-center home-content-header">Blog</h2></a>
+<div class="container">
+  <div class="row">
+    <a href="<?php echo site_url(); ?>/blog">
+      <div class="col-md-12">
+        <h2 class="text-center home-content-header">Blog</h2>
+      </div>
+    </a>
+  </div>
+</div>
 
+<div class="row">
 
   <?php
   $blog_args = array(
     'post_type' => 'post',
-    'posts_per_page' => 3
+    'posts_per_page' => 2
   );
   $blog_query = new WP_Query( $blog_args );
   ?>
   <?php if ( have_posts() ) : while ( $blog_query->have_posts() ) : $blog_query->the_post();
   ?>
 
-  <div class="row">
+  <div class="col-sm-6">
     <a href="<?php the_permalink(); ?>">
-      <div class="col-sm-4">
-        <div class="text-center post-thumbnail">
-          <?php the_post_thumbnail('thumbnail'); ?>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="text-center post-thumbnail">
+            <?php the_post_thumbnail('thumbnail'); ?>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
         </div>
       </div>
-      <div class="col-sm-8">
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_excerpt(); ?></p>
-      </div>
-    </a>
-  </div>
+    </div>
 
-  <hr>
-
-<?php endwhile; endif; ?>
-
-</div>
+  <?php endwhile; endif; ?>
 
 </div>
 </div>
