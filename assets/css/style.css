@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-18 11:18:15 PM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-21 11:02:30 AM */
 
 @charset "UTF-8";
 /* Dependancy Styles */
@@ -7322,6 +7322,8 @@ button.close {
     display: none !important;
   }
 }
+/* Variables */
+/* Other */
 /* Theme Specific Styles */
 .post {
   margin: 20px 0;
@@ -7516,7 +7518,6 @@ input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-/* Variables */
 /* User Defined Styles */
 .error404 form.search-form {
   margin-top: 3em;
@@ -7558,112 +7559,14 @@ input[type="search"]::-webkit-search-decoration {
   fill: #5EA9DD;
 }
 
-.home-content-header {
-  background-color: #337ab7;
-  color: #eeeeee;
-  padding: 0.5em 0;
-}
-
-.portolio-link {
-  text-decoration: none;
-}
-
-.portfolio-link h4 {
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.content-block {
-  margin: 0 auto 1em;
-  background-color: #ddd;
-  border-radius: 10px;
-  padding: 0.5em;
-}
-
-.content-block img {
-  margin: 0.5em 0;
-}
-
-.content-block p {
+.portfolio-tile {
+  background: #f1c40f;
   width: 90%;
   margin: 0 auto;
+  border-radius: 10px;
+  padding: 1em;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-.front-page-content {
-  margin-bottom: 1em;
-}
-
-.jumbotron {
-  background: #337ab7;
-  color: #eeeeee;
-}
-
-.h2.text-center.home-content-header {
-  transition: border 0.5s ease-in-out;
-}
-
-.navbar-default {
-  background-color: #333333;
-}
-.navbar-default .navbar-brand {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #428bca;
-}
-.navbar-default .navbar-text {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #428bca;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #428bca;
-  background-color: #333333;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #428bca;
-  background-color: #333333;
-}
-.navbar-default .navbar-toggle {
-  border-color: #333333;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #333333;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ecf0f1;
-}
-.navbar-default .navbar-link {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-link:hover {
-  color: #428bca;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #428bca;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #428bca;
-    background-color: #333333;
-  }
-}
 img.attachment-thumbnail {
   width: 150px;
   height: 150px;

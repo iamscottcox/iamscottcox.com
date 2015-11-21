@@ -1,14 +1,17 @@
 /* Dependancy Styles */
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "treehouse.scss";
 
 /* Variables */
-@import "variables.scss";
+@import "variables";
+
+/* Other */
+@import "treehouse";
 
 /* User Defined Styles */
-@import "404.scss";
-@import "footer.scss";
-@import "front-page.scss";
-@import "header.scss";
-@import "image.scss";
-@import "links.scss";
+@import "404";
+@import "footer";
+@import "front-page";
+@import "header";
+@import "image";
+@import "links";
+@import "main";
