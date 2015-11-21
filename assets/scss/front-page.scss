@@ -1,57 +1,19 @@
-.portfolio-tile {
+.portfolio, .blog {
 	background: $brand-primary;
-	width: 90%;
-	margin: 0 auto;
-	border-radius: 10px;
+	margin-bottom: 1em;
+}
+
+.portfolio-tile, .blog-tile {
+	background: #fff;
 	padding: 1em;
 }
 
-// .home-content-header {
-// 	color: $gray-lighter;
-// 	padding: 0.5em 0;
-// }
-//
-// .portolio-link {
-// 	text-decoration: none;
-// }
-//
-// .portfolio-link h4 {
-// 	white-space: nowrap;
-// 	overflow: hidden;
-// }
-//
-// .content-block {
-// 	margin: 0 auto 1em;
-// 	background-color: #ddd;
-// 	border-radius: 10px;
-// 	padding: 0.5em;
-// }
-//
-// .content-block img {
-// 	margin: 0.5em 0;
-// }
-//
-// .content-block p {
-// 	width: 90%;
-// 	margin: 0 auto;
-// }
-//
-// a:hover {
-// 	text-decoration: none;
-// }
-//
-// .front-page-content {
-// 	margin-bottom: 1em;
-// }
-// .jumbotron {
-// 	background: $brand-primary;
-// 	color: $gray-lighter;
-// }
-//
-// .h2.text-center.home-content-header {
-// 	transition: border 0.5s ease-in-out;
-// }
-//
-// .h2.text-center.home-content-header:hover {
-// 	border: 1px solid white;
-// }
+.row.portfolio-row, .row.blog-row {
+	padding-bottom: 1em;
+}
+
+@media screen and (max-width: 753px) {
+	.portfolio-tile, .blog-tile {
+		margin-bottom: 1em;
+	}
+}

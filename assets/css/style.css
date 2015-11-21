@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-21 11:02:30 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-21 11:40:08 AM */
 
 @charset "UTF-8";
 /* Dependancy Styles */
@@ -7559,14 +7559,25 @@ input[type="search"]::-webkit-search-decoration {
   fill: #5EA9DD;
 }
 
-.portfolio-tile {
-  background: #f1c40f;
-  width: 90%;
-  margin: 0 auto;
-  border-radius: 10px;
+.portfolio, .blog {
+  background: #333;
+  margin-bottom: 1em;
+}
+
+.portfolio-tile, .blog-tile {
+  background: #fff;
   padding: 1em;
 }
 
+.row.portfolio-row, .row.blog-row {
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 753px) {
+  .portfolio-tile, .blog-tile {
+    margin-bottom: 1em;
+  }
+}
 img.attachment-thumbnail {
   width: 150px;
   height: 150px;

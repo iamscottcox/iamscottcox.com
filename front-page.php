@@ -16,18 +16,15 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid portfolio">
   <a href="<?php echo site_url(); ?>/portfolio">
-    <div class="row portfolio">
+    <div class="row portfolio-heading">
       <div class="col-sm-12">
         <h2 class="text-center">Portfolio</h2>
       </div>
     </div>
   </a>
-</div>
-
-<div class="container-fluid">
-  <div class="row portfolio">
+  <div class="row portfolio-row">
 
     <?php
     $portfolio_args = array(
@@ -53,48 +50,48 @@
   <?php endwhile; endif; ?>
 
 </div>
-<hr>
+</div>
 
-<div class="container">
-  <div class="row">
+<div class="container-fluid blog">
+  <div class="row blog-heading">
     <a href="<?php echo site_url(); ?>/blog">
       <div class="col-md-12">
         <h2 class="text-center home-content-header">Blog</h2>
       </div>
     </a>
   </div>
-</div>
+  <div class="row blog-row">
 
-<div class="row">
+    <?php
+    $blog_args = array(
+      'post_type' => 'post',
+      'posts_per_page' => 2
+    );
+    $blog_query = new WP_Query( $blog_args );
+    ?>
+    <?php if ( have_posts() ) : while ( $blog_query->have_posts() ) : $blog_query->the_post();
+    ?>
 
-  <?php
-  $blog_args = array(
-    'post_type' => 'post',
-    'posts_per_page' => 2
-  );
-  $blog_query = new WP_Query( $blog_args );
-  ?>
-  <?php if ( have_posts() ) : while ( $blog_query->have_posts() ) : $blog_query->the_post();
-  ?>
-
-  <div class="col-sm-6">
-    <a href="<?php the_permalink(); ?>">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="text-center post-thumbnail">
-            <?php the_post_thumbnail('thumbnail'); ?>
+    <div class="col-sm-6">
+      <a href="<?php the_permalink(); ?>">
+        <div class="blog-tile">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="text-center post-thumbnail">
+                <?php the_post_thumbnail('thumbnail'); ?>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <h3><?php the_title(); ?></h3>
+              <p><?php the_excerpt(); ?></p>
+            </div>
           </div>
         </div>
-        <div class="col-sm-8">
-          <h3><?php the_title(); ?></h3>
-          <p><?php the_excerpt(); ?></p>
-        </div>
       </div>
-    </div>
 
-  <?php endwhile; endif; ?>
+    <?php endwhile; endif; ?>
 
-</div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
