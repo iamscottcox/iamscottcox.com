@@ -1,6 +1,7 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-21 11:40:08 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-21 12:18:40 PM */
 
 @charset "UTF-8";
+/* Variables */
 /* Dependancy Styles */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -1413,11 +1414,11 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #2ecc71;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #23527c;
+  color: #208e4e;
   text-decoration: underline;
 }
 a:focus {
@@ -1643,12 +1644,12 @@ mark,
 }
 
 .text-primary {
-  color: #337ab7;
+  color: #2ecc71;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #25a25a;
 }
 
 .text-success {
@@ -1692,12 +1693,12 @@ a.text-danger:focus {
 }
 
 .bg-primary {
-  background-color: #337ab7;
+  background-color: #2ecc71;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #286090;
+  background-color: #25a25a;
 }
 
 .bg-success {
@@ -3736,38 +3737,38 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #2ecc71;
+  border-color: #29b765;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #25a25a;
+  border-color: #124f2c;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #25a25a;
+  border-color: #1e854a;
 }
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #25a25a;
+  border-color: #1e854a;
 }
 .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #1e854a;
+  border-color: #124f2c;
 }
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #2ecc71;
+  border-color: #29b765;
 }
 .btn-primary .badge {
-  color: #337ab7;
+  color: #2ecc71;
   background-color: #fff;
 }
 
@@ -3920,7 +3921,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-link {
-  color: #337ab7;
+  color: #2ecc71;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3933,7 +3934,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-color: transparent;
 }
 .btn-link:hover, .btn-link:focus {
-  color: #23527c;
+  color: #208e4e;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4087,7 +4088,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #337ab7;
+  background-color: #2ecc71;
 }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4525,7 +4526,7 @@ tbody.collapse.in {
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #337ab7;
+  border-color: #2ecc71;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4572,7 +4573,7 @@ tbody.collapse.in {
 }
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #2ecc71;
 }
 
 .nav-stacked > li {
@@ -5207,7 +5208,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  color: #337ab7;
+  color: #2ecc71;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -5227,7 +5228,7 @@ tbody.collapse.in {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #23527c;
+  color: #208e4e;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -5237,8 +5238,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -5367,10 +5368,10 @@ a.label:hover, a.label:focus {
 }
 
 .label-primary {
-  background-color: #337ab7;
+  background-color: #2ecc71;
 }
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #286090;
+  background-color: #25a25a;
 }
 
 .label-success {
@@ -5427,7 +5428,7 @@ a.label:hover, a.label:focus {
   padding: 1px 5px;
 }
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #2ecc71;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -5514,7 +5515,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #2ecc71;
 }
 
 .alert {
@@ -5632,7 +5633,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #337ab7;
+  background-color: #2ecc71;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5808,8 +5809,8 @@ button.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active .list-group-item-heading > small,
@@ -5821,7 +5822,7 @@ button.list-group-item {
   color: inherit;
 }
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #c7ddef;
+  color: #d1f5e0;
 }
 
 .list-group-item-success {
@@ -6218,22 +6219,22 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-primary {
-  border-color: #337ab7;
+  border-color: #2ecc71;
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
+  border-top-color: #2ecc71;
 }
 .panel-primary > .panel-heading .badge {
-  color: #337ab7;
+  color: #2ecc71;
   background-color: #fff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #337ab7;
+  border-bottom-color: #2ecc71;
 }
 
 .panel-success {
@@ -7322,7 +7323,6 @@ button.close {
     display: none !important;
   }
 }
-/* Variables */
 /* Other */
 /* Theme Specific Styles */
 .post {
@@ -7560,22 +7560,36 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .portfolio, .blog {
-  background: #333;
+  background: #eeeeee;
   margin-bottom: 1em;
+}
+
+.jumbotron {
+  background: #2ecc71;
 }
 
 .portfolio-tile, .blog-tile {
   background: #fff;
   padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.portfolio-tile:hover, .blog-tile:hover {
+  box-shadow: 0px 0px 15px #2ecc71;
+}
+
+.portfolio-heading, .blog-heading {
+  padding-bottom: 1em;
 }
 
 .row.portfolio-row, .row.blog-row {
   padding-bottom: 1em;
 }
 
-@media screen and (max-width: 753px) {
-  .portfolio-tile, .blog-tile {
-    margin-bottom: 1em;
+@media screen and (max-width: 783px) {
+  .blog-tile h3 {
+    text-align: center;
   }
 }
 img.attachment-thumbnail {

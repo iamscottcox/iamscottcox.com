@@ -72,7 +72,7 @@
     <?php if ( have_posts() ) : while ( $blog_query->have_posts() ) : $blog_query->the_post();
     ?>
 
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <a href="<?php the_permalink(); ?>">
         <div class="blog-tile">
           <div class="row">
@@ -81,7 +81,7 @@
                 <?php the_post_thumbnail('thumbnail'); ?>
               </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-8">
               <h3><?php the_title(); ?></h3>
               <p><?php the_excerpt(); ?></p>
             </div>
