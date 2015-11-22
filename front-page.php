@@ -38,12 +38,13 @@
 
     <article class="col-sm-4">
       <a href="<?php the_permalink(); ?>">
-        <div class="portfolio-tile">
-          <div class="text-center portfolio-thumbnail">
-            <?php the_post_thumbnail('thumbnail'); ?>
-          </div>
-          <h3 class="text-center"><?php the_title(); ?></h3>
+
+        <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
+        $url = $thumb['0']; ?>
+
+        <div class="portfolio-tile" style="background: url(<?php echo $url ?>) no-repeat center center; background-size: cover; background-color: #fff">
         </div>
+
       </a>
     </article>
 

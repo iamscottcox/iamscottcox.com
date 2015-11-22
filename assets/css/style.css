@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-22 12:57:49 PM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-22 1:58:18 PM */
 
 @charset "UTF-8";
 /* Variables */
@@ -7578,6 +7578,16 @@ input[type="search"]::-webkit-search-decoration {
 }
 .portfolio-tile:hover, .blog-tile:hover {
   box-shadow: 0px 0px 15px #2ecc71;
+}
+
+.portfolio-tile {
+  max-width: 100%;
+  min-height: 200px;
+}
+
+img.attachment-thumbnail.wp-post-image {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .blog-row a, .portfolio-row a {
