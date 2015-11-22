@@ -1,6 +1,7 @@
 .portfolio, .blog {
 	background: $gray-lighter;
 	margin-bottom: 1em;
+	border-radius: 10px
 }
 
 .jumbotron {
@@ -35,6 +36,11 @@ img.attachment-thumbnail.wp-post-image {
 
 .portfolio-heading, .blog-heading {
 	padding-bottom: 1em;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	& a {
+		color: $gray;
+	}
 }
 
 .row.portfolio-row, .row.blog-row {

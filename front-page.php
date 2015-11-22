@@ -18,13 +18,11 @@
 
 <div class="container portfolio">
   <div class="row portfolio-heading">
-    <div class="col-xs-3"></div>
     <a href="<?php echo site_url(); ?>/portfolio">
-      <div class="col-xs-6">
-        <h2 class="text-center">Portfolio</h2>
+      <div class="col-xs-12">
+        <h2 class="text-center">Recent Portfolio Entries</h2>
       </div>
     </a>
-    <div class="col-xs-3"></div>
   </div>
   <div class="row portfolio-row">
 
@@ -57,13 +55,11 @@
 
 <div class="container blog">
   <div class="row blog-heading">
-    <div class="col-xs-3"></div>
     <a href="<?php echo site_url(); ?>/blog">
-      <div class="col-xs-6">
-        <h2 class="text-center">Blog</h2>
+      <div class="col-xs-12">
+        <h2 class="text-center">Recent Blog Entries</h2>
       </div>
     </a>
-    <div class="col-xs-3"></div>
   </div>
   <div class="row blog-row">
 

@@ -24,30 +24,33 @@ Template Name: Portfolio Page
 </div>
 
 <div class="container">
-  <?php
-  $args = array(
-    'post_type' => 'portfolio'
-  );
-  $the_query = new WP_Query( $args );
-  ?>
-  <?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+  <div class="row portfolio-row">
 
-    <div class-"row">
-      <a class="portfolio-link" href="<?php the_permalink(); ?>">
-        <div class="col-sm-4">
-          <div class="content-block">
-            <div class="text-center">
-              <?php the_post_thumbnail('thumbnail'); ?>
-            </div>
-            <h4 class="text-center"><?php the_title(); ?></h4>
-          </div>
-        </a>
-      </div>
-    </div>
+    <?php
+    $portfolio_args = array(
+      'post_type' => 'portfolio'
+    );
+    $portfolio_query = new WP_Query( $portfolio_args );
+    ?>
+    <?php if ( have_posts() ) : while ( $portfolio_query->have_posts() ) : $portfolio_query->the_post();
+    ?>
+
+    <article class="col-sm-4">
+      <a href="<?php the_permalink(); ?>">
+
+        <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
+        $url = $thumb['0']; ?>
+
+        <div class="portfolio-tile" style="background: url(<?php echo $url ?>) no-repeat top center; background-size: cover; background-color: #fff">
+        </div>
+
+      </a>
+    </article>
 
   <?php endwhile; endif; ?>
-</div>
 
+</div>
+</div>
 
 
 <?php get_footer(); ?>
