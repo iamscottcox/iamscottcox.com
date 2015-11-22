@@ -20,7 +20,7 @@
   <div class="row portfolio-heading">
     <a href="<?php echo site_url(); ?>/portfolio">
       <div class="col-xs-12">
-        <h2 class="text-center">Recent Portfolio Entries</h2>
+        <h2 class="text-center">Portfolio</h2>
       </div>
     </a>
   </div>
@@ -57,7 +57,7 @@
   <div class="row blog-heading">
     <a href="<?php echo site_url(); ?>/blog">
       <div class="col-xs-12">
-        <h2 class="text-center">Recent Blog Entries</h2>
+        <h2 class="text-center">Blog</h2>
       </div>
     </a>
   </div>

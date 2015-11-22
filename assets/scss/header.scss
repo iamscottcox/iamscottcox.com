@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #333;
+  background-color: $gray-darker;
   border: none;
   border-radius: 0px;
 }
@@ -21,6 +21,42 @@
     color: $brand-primary;
     background-color: $body-bg;
   }
+}
+
+.navbar-default .navbar-nav a {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav a:before {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 1px;
+  left: 0;
+  background-color: $gray-darker;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav a:hover:before {
+  background-color: $body-bg;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar-default .navbar-nav .current-menu-item a:before {
+  background-color: $body-bg;
+
+}
+
+.navbar-default .navbar-nav .current-menu-item a:hover:before {
+  background-color: $body-bg;
 }
 
 .navbar-default .navbar-toggle {
