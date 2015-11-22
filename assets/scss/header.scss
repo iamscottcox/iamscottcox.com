@@ -1,1 +1,28 @@
+.navbar {
+  background-color: #333;
+  border: none;
+}
 
+.navbar-default .navbar-nav > li > a {
+  color: $body-bg;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: $brand-primary;
+    color: $body-bg;
+  }
+}
+
+.navbar-default .navbar-nav .current-menu-item a {
+  color: $brand-primary;
+  background-color: $body-bg;
+  font-weight: bold;
+  &:hover {
+    color: $brand-primary;
+    background-color: $body-bg;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  transition: all 0.2s ease-in-out;
+}

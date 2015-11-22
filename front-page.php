@@ -17,15 +17,15 @@
 </div>
 
 <div class="container portfolio">
-  <a href="<?php echo site_url(); ?>/portfolio">
-    <div class="row portfolio-heading">
-      <div class="col-xs-3"></div>
+  <div class="row portfolio-heading">
+    <div class="col-xs-3"></div>
+    <a href="<?php echo site_url(); ?>/portfolio">
       <div class="col-xs-6">
         <h2 class="text-center">Portfolio</h2>
       </div>
-      <div class="col-xs-3"></div>
-    </div>
-  </a>
+    </a>
+    <div class="col-xs-3"></div>
+  </div>
   <div class="row portfolio-row">
 
     <?php
@@ -56,15 +56,15 @@
 </div>
 
 <div class="container blog">
-  <a href="<?php echo site_url(); ?>/blog">
-    <div class="row blog-heading">
-      <div class="col-xs-3"></div>
+  <div class="row blog-heading">
+    <div class="col-xs-3"></div>
+    <a href="<?php echo site_url(); ?>/blog">
       <div class="col-xs-6">
         <h2 class="text-center">Blog</h2>
       </div>
-      <div class="col-xs-3"></div>
-    </div>
-  </a>
+    </a>
+    <div class="col-xs-3"></div>
+  </div>
   <div class="row blog-row">
 
     <?php
