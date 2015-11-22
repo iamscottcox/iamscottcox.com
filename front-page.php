@@ -16,12 +16,14 @@
   </div>
 </div>
 
-<div class="container-fluid portfolio">
+<div class="container portfolio">
   <a href="<?php echo site_url(); ?>/portfolio">
     <div class="row portfolio-heading">
-      <div class="col-sm-12">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6">
         <h2 class="text-center">Portfolio</h2>
       </div>
+      <div class="col-xs-3"></div>
     </div>
   </a>
   <div class="row portfolio-row">
@@ -42,7 +44,7 @@
         <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
         $url = $thumb['0']; ?>
 
-        <div class="portfolio-tile" style="background: url(<?php echo $url ?>) no-repeat center center; background-size: cover; background-color: #fff">
+        <div class="portfolio-tile" style="background: url(<?php echo $url ?>) no-repeat top center; background-size: cover; background-color: #fff">
         </div>
 
       </a>
@@ -53,14 +55,16 @@
 </div>
 </div>
 
-<div class="container-fluid blog">
-  <div class="row blog-heading">
-    <a href="<?php echo site_url(); ?>/blog">
-      <div class="col-md-12">
-        <h2 class="text-center home-content-header">Blog</h2>
+<div class="container blog">
+  <a href="<?php echo site_url(); ?>/blog">
+    <div class="row blog-heading">
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6">
+        <h2 class="text-center">Blog</h2>
       </div>
-    </a>
-  </div>
+      <div class="col-xs-3"></div>
+    </div>
+  </a>
   <div class="row blog-row">
 
     <?php
