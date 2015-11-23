@@ -1,0 +1,24 @@
+{
+  "name": "Wordpress_Boilerplate",
+  "description": "...",
+  "main": "index.php",
+  "authors": [
+    "Scott Cox"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "https://github.com/sulkosaurus/sulkosaurus.com",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
