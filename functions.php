@@ -18,7 +18,7 @@ add_action( 'wp_enqueue_scripts', 'theme_styles' );
 // Load Theme JS
 function theme_js() {
 
-	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . 'dist/js/app.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/dist/js/app.min.js', array('jquery'), '', true );
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
