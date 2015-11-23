@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 3:34:03 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 1:07:18 PM */
 
 @charset "UTF-8";
 /* Variables */
@@ -7612,6 +7612,27 @@ img.attachment-thumbnail.wp-post-image {
   background-color: #222222;
   border: none;
   border-radius: 0px;
+}
+
+.sulkosaurus-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sulkosaurus-li {
+  width: 44px;
+  height: 44px;
+}
+
+#sulkosaurus-svg {
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+}
+
+.navbar-header {
+  margin-top: 3px;
+  margin-right: 15px;
 }
 
 .navbar-default .navbar-nav > li > a {

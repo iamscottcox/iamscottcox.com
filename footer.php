@@ -1,8 +1,6 @@
 <div class="container">
 	<footer>
 
-		<?php get_template_part('spritemap'); ?>
-
 		<div class="row">
 			<div class="col-xs-12">
 				<ul class="text-center social-icons">
