@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 1:57:41 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 2:12:52 AM */
 
 @charset "UTF-8";
 /* Variables */
@@ -7616,7 +7616,7 @@ img.attachment-thumbnail.wp-post-image {
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f39c12;
@@ -7649,8 +7649,8 @@ img.attachment-thumbnail.wp-post-image {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .navbar-default .navbar-nav a:hover:before {
