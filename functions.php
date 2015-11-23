@@ -19,8 +19,6 @@ add_action( 'wp_enqueue_scripts', 'theme_styles' );
 function theme_js() {
 
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', array('jquery'), '', true );
-	wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/theme.js', array('jquery','bootstrap_js'), '', true );
-
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' );
 
