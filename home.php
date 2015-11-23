@@ -34,7 +34,7 @@
           </p>
 
         </article>
-        
+
       <?php endwhile; endif; ?>
 
     </div>

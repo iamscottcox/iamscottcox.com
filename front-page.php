@@ -16,7 +16,7 @@
   </div>
 </div>
 
-<div class="container portfolio">
+<div class="container portfolio-container">
   <div class="row portfolio-heading">
     <a href="<?php echo site_url(); ?>/portfolio">
       <div class="col-xs-12">
@@ -53,7 +53,7 @@
 </div>
 </div>
 
-<div class="container blog">
+<div class="container blog-container">
   <div class="row blog-heading">
     <a href="<?php echo site_url(); ?>/blog">
       <div class="col-xs-12">

@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-22 11:40:33 PM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 1:57:41 AM */
 
 @charset "UTF-8";
 /* Variables */
@@ -314,8 +314,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../../bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 .glyphicon {
   position: relative;
@@ -7555,7 +7555,7 @@ input[type="search"]::-webkit-search-decoration {
   fill: #5EA9DD;
 }
 
-.portfolio, .blog {
+.portfolio-container, .blog-container {
   background: #eeeeee;
   margin-bottom: 1em;
   border-radius: 10px;
@@ -7645,7 +7645,7 @@ img.attachment-thumbnail.wp-post-image {
   height: 2px;
   bottom: 1px;
   left: 0;
-  background-color: #555555;
+  background-color: #222222;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -7692,6 +7692,15 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
+}
+
+.single-portfolio-image {
+  height: 300px;
+  margin-bottom: 1em;
+}
+
+.glyphicon-arrow-left {
+  margin-right: 0.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

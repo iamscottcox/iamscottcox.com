@@ -10,6 +10,7 @@ add_theme_support( 'html5' );
 function theme_styles() {
 
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/assets/css/style.css' );
+	// wp_enqueue_style('bootstrap-glyphicons, https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css');
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
