@@ -88,7 +88,8 @@ module.exports = function(grunt) {
       dist: {
         options: {
           banner: '/*! <%= pkg.name %> <%= pkg.version %> filename.min.js <%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> */\n',
-          report: 'gzip'
+          // report: 'gzip'
+          compress: {}
         },
         files: {
           'dist/js/app.min.js' : [
@@ -148,7 +149,7 @@ grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.registerTask('default', ['watch']);
 
-grunt.registerTask('build', ['uglify:dist', 'sass:dist', 'makepot', 'copy']);
+grunt.registerTask('build', ['uglify:dist', 'sass:dist', 'copy']);
 
 grunt.registerTask('docs', [
   'phpdocumentor:dist'
