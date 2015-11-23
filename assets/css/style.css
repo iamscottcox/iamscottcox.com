@@ -1,4 +1,4 @@
-/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 2:12:52 AM */
+/*! Wordpress_Boilerplate 1.0.0 filename.css 2015-11-23 3:34:03 AM */
 
 @charset "UTF-8";
 /* Variables */
@@ -7692,6 +7692,17 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
+}
+
+.contact-row {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+span.glyphicon.glyphicon-envelope, span.glyphicon.glyphicon-earphone {
+  height: 50px;
+  width: 50px;
+  margin-right: 1em;
 }
 
 .single-portfolio-image {

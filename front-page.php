@@ -6,7 +6,7 @@
       <div class="col-md-12">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-          <h1><?php bloginfo('title'); ?></h1>
+          <h1 class="text-center"><?php bloginfo('title'); ?></h1>
 
           <p><?php the_content(); ?></p>
 

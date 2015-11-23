@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-md-8">
       <div class="page-header">
-        <h2><a href="<?php bloginfo( 'url' ); ?>/portfolio"><span class="glyphicon glyphicon-arrow-left"></span>Back to Portfolio</a></h2>
+        <h3><a href="<?php bloginfo( 'url' ); ?>/portfolio"><span class="glyphicon glyphicon-arrow-left"></span>Back to Portfolio</a></h3>
       </div>
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -27,13 +27,13 @@
 
       <?php endwhile; endif; ?>
 
-      </div>
-
-      <div class="col-md-4">
-        <?php get_sidebar('blog'); ?>
-      </div>
-
     </div>
+
+    <div class="col-md-4">
+      <?php get_sidebar('blog'); ?>
+    </div>
+
   </div>
+</div>
 
 <?php get_footer(); ?>
