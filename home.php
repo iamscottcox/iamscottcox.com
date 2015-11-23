@@ -14,13 +14,13 @@
         <article class="post">
 
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-sm-4">
               <a href="<?php the_permalink(); ?>">
                 <div class="text-center post-thumbnail">
                   <?php the_post_thumbnail('thumbnail'); ?>
                 </div>
               </div>
-              <div class="col-xs-8">
+              <div class="col-sm-8">
                 <h3><?php the_title(); ?></h3>
                 <p><?php the_excerpt(); ?></p>
               </div>

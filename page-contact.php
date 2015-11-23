@@ -22,10 +22,10 @@
   </div>
 
   <div class="row contact-row">
-    <div class="col-xs-6 contact-mail text-center">
+    <div class="col-sm-6 contact-mail text-center">
       <a href="mailto:scottcox89@gmail.com"><h3><span class="glyphicon glyphicon-envelope"></span>scottcox89@gmail.com</h3></a>
     </div>
-    <div class="col-xs-6 contact-phone text-center">
+    <div class="col-sm-6 contact-phone text-center">
       <a href="tel:07780604094"><h3><span class="glyphicon glyphicon-earphone"></span>07780604094</h3></a>
     </div>
 
