@@ -118,7 +118,7 @@ module.exports = function(grunt) {
       },
       scss: {
         files: ['assets/scss/*.scss'],
-        tasks: ['sass:dev']
+        tasks: ['sass:dist']
       },
       css: {
         files: ['*.css']
@@ -131,7 +131,7 @@ module.exports = function(grunt) {
       },
       js: {
         files: ['assets/js/*'],
-        tasks: ['jshint', 'uglify:dev']
+        tasks: ['jshint', 'uglify:dist']
       },
 
     }
