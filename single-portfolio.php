@@ -12,18 +12,26 @@
         <div class="row">
           <div class="col-sm-12">
 
-            <h2><?php the_title(); ?></h2>
+            <div class="page-header">
+              <h1><?php the_title(); ?></h1>
+              <p class="meta">
+                By <?php the_author_posts_link(); ?> on <?php echo the_time('l, F jS, Y'); ?>
+              </p>
+            </div>
 
             <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
             $url = $thumb['0']; ?>
 
-            <div class="single-portfolio-image" style="background: url(<?php echo $url ?>) no-repeat top center; background-size: cover; background-color: #fff">
+            <div class="single-image" style="background: url(<?php echo $url ?>) no-repeat top center; background-size: cover; background-color: #fff">
             </div>
+
+            <p class="single-content"><?php the_content(); ?></p>
 
           </div>
         </div>
 
-        <?php the_content(); ?>
+        <hr>
+
 
       <?php endwhile; endif; ?>
 
