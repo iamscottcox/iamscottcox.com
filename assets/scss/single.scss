@@ -1,12 +1,24 @@
-.single-content {
+.single-background {
   text-align: justify;
-  width: 80%;
-  margin: 0 auto;
+  background-color: $gray-lighter;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 2em;
+  & .single-content {
+    background-color: $body-bg;
+    line-height: 1.25em;
+    padding: 1.5em;
+    border-radius: 10px;
+    & p {
+      margin-bottom: 0px;
+    }
+  }
 }
 
 .single-image {
   height: 300px;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+  border-radius: 10px;
 }
 
 .glyphicon-arrow-left {
