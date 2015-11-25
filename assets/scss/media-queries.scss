@@ -1,0 +1,11 @@
+@media screen and (max-width:767px) {
+	.portfolio-container, .blog-container, .single-background {
+		border-radius: 0px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.blog-tile h3 {
+		text-align: center;
+	}
+}
