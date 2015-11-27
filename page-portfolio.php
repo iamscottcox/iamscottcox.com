@@ -23,7 +23,7 @@ Template Name: Portfolio Page
   </div>
 </div>
 
-<div class="container">
+<div class="container portfolio-container page-portfolio-container">
   <div class="row portfolio-row">
 
     <?php
