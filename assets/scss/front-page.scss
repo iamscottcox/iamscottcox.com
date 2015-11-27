@@ -1,7 +1,7 @@
 .portfolio-container, .blog-container {
 	background: $gray-lighter;
 	margin-bottom: 1em;
-	border-radius: 10px
+	border-radius: 10px;
 }
 
 .jumbotron {
@@ -15,6 +15,7 @@
 	border-radius: 10px;
 	margin-bottom: 1em;
 	transition: all 0.5s ease-in-out;
+	border: 1px solid darken($gray-lighter, 10%);
 	&:hover {
 		box-shadow: 0px 0px 20px 5px $brand-primary;
 	}
