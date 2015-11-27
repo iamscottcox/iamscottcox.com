@@ -4,9 +4,9 @@
   <div class="row">
     <div class="col-md-8">
 
-      <div class="row back-to-blog-row">
+      <div class="row back-to-portfolio-row">
         <div class="col-sm-12">
-          <h3><a href="<?php bloginfo( 'url' ); ?>/blog"><span class="glyphicon glyphicon-arrow-left"></span>Back to Blog</a></h3>
+          <h3><a href="<?php bloginfo( 'url' ); ?>/portfolio"><span class="glyphicon glyphicon-arrow-left"></span>Back to Portfolio</a></h3>
         </div>
       </div>
 
