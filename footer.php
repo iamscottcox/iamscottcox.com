@@ -5,28 +5,28 @@
 			<div class="col-xs-12">
 				<ul class="text-center social-icons">
 					<li>
-						<a href="https://github.com/sulkosaurus">
+						<a href="https://github.com/iamscottcox">
 							<svg id="github-svg" class="social-icon">
 								<use xlink:href="#github-svg"></use>
 							</svg>
 						</a>
 					</li>
 					<li>
-						<a href="https://codepen.io/sulkosaurus">
+						<a href="https://codepen.io/iamscottcox">
 						<svg id="codepen-svg" class="social-icon">
 							<use xlink:href="#codepen-svg"></use>
 						</svg>
 						</a>
 					</li>
 					<li>
-						<a href="https://teamtreehouse.com/sulkosaurus">
+						<a href="https://teamtreehouse.com/iamscottcox">
 							<svg id="treehouse-svg" class="social-icon">
 								<use xlink:href="#treehouse-svg"></use>
 							</svg>
 						</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/sulkosaurus">
+						<a href="https://twitter.com/iamscottcox">
 						<svg id="twitter-svg" class="social-icon">
 							<use xlink:href="#twitter-svg"></use>
 						</svg>
