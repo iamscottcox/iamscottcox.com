@@ -75,21 +75,6 @@ module.exports = function(grunt) {
           ext: '.min.css'
         }]
       },
-      dev: {
-        options: {
-          banner: '/*! <%= pkg.name %> <%= pkg.version %> filename.css <%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> */\n',
-          style: 'expanded'
-        },
-        files: [{
-          expand: true,
-          cwd: 'assets/scss',
-          src: [
-            'style.scss'
-          ],
-          dest: 'assets/css',
-          ext: '.css'
-        }]
-      }
     },
 
     uglify: {
@@ -105,19 +90,6 @@ module.exports = function(grunt) {
           ]
         }
       },
-      dev: {
-        options: {
-          banner: '/*! <%= pkg.name %> <%= pkg.version %> filename.js <%= grunt.template.today("yyyy-mm-dd h:MM:ss TT") %> */\n',
-          beautify: true,
-          compress: false,
-          mangle: false
-        },
-        files: {
-          'assets/js/app.js' : [
-            'assets/js/*.js'
-          ]
-        }
-      }
     },
 
     watch: {
