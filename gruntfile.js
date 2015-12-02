@@ -11,6 +11,14 @@ module.exports = function(grunt) {
       }
     },
 
+    autoprefixer: {
+      dist: {
+        files: {
+          'dist/css/style.min.css': 'dist/css/style.min.css'
+        }
+      }
+    },
+
     // curl: {
     //     'google-fonts-source': {
     //         src: 'https://www.googleapis.com/webfonts/v1/webfonts?key=*******',
@@ -121,7 +129,7 @@ module.exports = function(grunt) {
         tasks: ['sass:dist']
       },
       css: {
-        files: ['*.css']
+        files: ['assets/style.min.css']
       },
       html: {
         files: ['*.html']
@@ -146,10 +154,11 @@ grunt.loadNpmTasks('grunt-curl');
 grunt.loadNpmTasks('grunt-phpdocumentor');
 grunt.loadNpmTasks('grunt-wp-i18n');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-autoprefixer')
 
 grunt.registerTask('default', ['watch']);
 
-grunt.registerTask('build', ['uglify:dist', 'sass:dist', 'copy']);
+grunt.registerTask('build', ['uglify:dist', 'sass:dist', 'copy', 'autoprefixer']);
 
 grunt.registerTask('docs', [
   'phpdocumentor:dist'
