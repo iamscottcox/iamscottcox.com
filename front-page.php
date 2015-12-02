@@ -88,6 +88,7 @@
             </div>
           </div>
         </div>
+      </a>
       </div>
 
     <?php endwhile; endif; ?>
