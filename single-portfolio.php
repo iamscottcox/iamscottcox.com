@@ -24,8 +24,12 @@
             <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'small' );
             $url = $thumb['0']; ?>
 
+            <a href="<?php the_field('codepen_url')?>">
+
             <div class="single-image" style="background: url(<?php echo $url ?>) no-repeat top center; background-size: cover; background-color: #fff">
             </div>
+
+          </a>
 
             <div class="single-content">
               <?php the_content(); ?>
